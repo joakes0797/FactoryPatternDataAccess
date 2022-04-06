@@ -8,9 +8,9 @@ namespace FactoryPatternDataAccess
     {
         public static List<Product> products = new List<Product>()
         {
-            new Product(){Name = "basketball", Price= 19.99m},
-            new Product(){Name = "baseball", Price = 12.99m},
-            new Product(){Name = "volleyball", Price = 15.99m}
+            new Product(){Name = "doll", Price= 8.99m},
+            new Product(){Name = "brush", Price = 3.00m},
+            new Product(){Name = "Polly Pocket", Price = 9.99m}
         };
 
         public void SaveData()
